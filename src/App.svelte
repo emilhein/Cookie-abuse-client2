@@ -1,6 +1,6 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Likings.svelte'
+  import Likings from './lib/Likings.svelte'
 </script>
 
 <main>
