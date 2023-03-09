@@ -1,19 +1,7 @@
 <script>
-  let likes = []
   const ilike = (topic) => {
-    if(!likes.includes(topic)){
-      likes = [...likes, topic]
-      
-      fetch(`https://fake-ad-server.herokuapp.com/cookie/${topic}`,{
-          credentials: 'include' 
-        })
-        .then(response => {
-            console.log('got it ', response)
-        })
-        .catch(error => {
-          console.error('Panic at the disco:', error);
-        })
-    }
+       fakeAdserver.insertAdIntoDiv(topic)
+
   }
 </script>
 
