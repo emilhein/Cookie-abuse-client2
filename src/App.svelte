@@ -13,7 +13,7 @@
     </a>
   </div>
   <h1>Vite + Svelte cookie-abuse-client 2</h1>
-<div id="cats "></div>
+<div id="cats"></div>
 <div id="dogs"></div>
 <div id="flowers"></div>
 <div id="Phones"></div>
