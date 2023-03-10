@@ -18,5 +18,4 @@
   I like Phones 
 </button>
 <p>
-{likes}
 </p>
